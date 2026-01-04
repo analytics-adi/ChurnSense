@@ -53,4 +53,33 @@ Streamlit Decision Support App
 ---
 
 ## 🖥 Application Preview
+![Streamlit App](Churn_prediction1.png)
+![Streamlit App](Churn_prediction2.png)
+![Streamlit App](Churn_prediction3.png)
+
+---
+
+## 📂 Repository Structure
+```text
+.
+├── app.py                           # Streamlit inference application
+├── Customer_Churn_Prediction.ipynb  # EDA, feature engineering & modeling
+├── customer_churn_model.pkl         # Trained model artifact
+├── encoders.pkl                     # Categorical encoders
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ▶️ Run the Project Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🚀 Conclusion
+This project delivers an end-to-end telecom churn prediction solution that transforms customer data into actionable retention insights. By combining machine learning with a business-ready Streamlit application, it enables real-time churn risk assessment and supports proactive, data-driven decision making.
 
